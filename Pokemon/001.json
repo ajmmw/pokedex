@@ -1,0 +1,149 @@
+{
+	"name": "Bulbasaur",
+	"id": "1",
+	"height": 0.71,
+	"weight": 6.9,
+	"species": "Seed",
+	"gender": [
+		{
+			"male": 87.5,
+			"female": 12.5
+		}
+	],
+	"pokedex": "The seed on its back is filled with nutrients. The seed grows steadily larger as its body grows.",
+	"zone": [
+		{
+			"name": "Viridian Forest",
+			"chance": "Rare",
+			"lvl": "03-06",
+			"encounter": "Normal",
+			"floor": "1F"
+		}
+	],
+	"types": [
+		{
+			"name": "Grass"
+		},
+		{
+			"name": "Poison"
+		}
+	],
+	"abilities": [
+		{
+			"name": "Chlorophyll"
+		},
+		{
+			"name": "Overgrow"
+		}
+	],
+	"stats": [
+		{
+			"name": "CP",
+			"stat": 318
+		},
+		{
+			"name": "Atk",
+			"stat": 49
+		},
+		{
+			"name": "SP Atk",
+			"stat": 65
+		},
+		{
+			"name": "Def",
+			"stat": 49
+		},
+		{
+			"name": "SP Def",
+			"stat": 65
+		},
+		{
+			"name": "HP",
+			"stat": 45
+		},
+		{
+			"name": "Speed",
+			"stat": 45
+		}
+	],
+	"moves": [
+		{
+			"lvl": 1,
+			"name": "Growl"
+		},
+		{
+			"lvl": 1,
+			"name": "Tackle"
+		},
+		{
+			"lvl": 5,
+			"name": "Vine Whip"
+		},
+		{
+			"lvl": 9,
+			"name": "Leech Seed"
+		},
+		{
+			"lvl": 14,
+			"name": "Poison Powder"
+		},
+		{
+			"lvl": 14,
+			"name": "Sleep Powder"
+		},
+		{
+			"lvl": 18,
+			"name": "Take Down"
+		},
+		{
+			"lvl": 23,
+			"name": "Razor Leaf"
+		},
+		{
+			"lvl": 27,
+			"name": "Growth"
+		},
+		{
+			"lvl": 32,
+			"name": "Double-Edge"
+		}
+	],
+	"tms": [
+		{
+			"name": "Headbutt"
+		},
+		{
+			"name": "Rest"
+		},
+		{
+			"name": "Light Screen"
+		},
+		{
+			"name": "Protect"
+		},
+		{
+			"name": "Substitute"
+		},
+		{
+			"name": "Reflect"
+		},
+		{
+			"name": "Facade"
+		},
+		{
+			"name": "Toxic"
+		},
+		{
+			"name": "Outrage"
+		},
+		{
+			"name": "Solar Beam"
+		},
+		{
+			"name": "Sludge Bomb"
+		},
+		{
+			"name": "Mega Drain"
+		}
+	]
+}

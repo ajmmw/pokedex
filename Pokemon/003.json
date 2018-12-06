@@ -1,0 +1,177 @@
+{
+	"name": "Venusaur",
+	"id": "3",
+	"height": 2.01,
+	"weight": 100,
+	"species": "Seed",
+	"gender": [
+		{
+			"male": 87.5,
+			"female": 12.5
+		}
+	],
+	"pokedex": "By spreading the broad petals of its flower and catching the sun’s rays, it fills its body with power.",
+	"zone": [
+		{
+			"name": "Viridian Forest",
+			"chance": "Rare",
+			"lvl": "03-06",
+			"encounter": "Normal",
+			"floor": "1F"
+		}
+	],
+	"types": [
+		{
+			"name": "Grass"
+		},
+		{
+			"name": "Poison"
+		}
+	],
+	"abilities": [
+		{
+			"name": "Chlorophyll"
+		},
+		{
+			"name": "Overgrow"
+		}
+	],
+	"stats": [
+		{
+			"name": "CP",
+			"stat": 525
+		},
+		{
+			"name": "Atk",
+			"stat": 82
+		},
+		{
+			"name": "SP Atk",
+			"stat": 100
+		},
+		{
+			"name": "Def",
+			"stat": 83
+		},
+		{
+			"name": "SP Def",
+			"stat": 100
+		},
+		{
+			"name": "HP",
+			"stat": 80
+		},
+		{
+			"name": "Speed",
+			"stat": 80
+		}
+	],
+	"moves": [
+		{
+			"lvl": 0,
+			"name": "Petal Dance"
+		},
+		{
+			"lvl": 1,
+			"name": "Amnesia"
+		},
+		{
+			"lvl": 1,
+			"name": "Growl"
+		},
+		{
+			"lvl": 1,
+			"name": "Leech Seed"
+		},
+		{
+			"lvl": 1,
+			"name": "Petal Dance"
+		},
+		{
+			"lvl": 1,
+			"name": "Power Whip"
+		},
+		{
+			"lvl": 1,
+			"name": "Tackle"
+		},
+		{
+			"lvl": 1,
+			"name": "Vine Whip"
+		},
+		{
+			"lvl": 5,
+			"name": "Vine Whip"
+		},
+		{
+			"lvl": 9,
+			"name": "Leech Seed"
+		},
+		{
+			"lvl": 14,
+			"name": "Poison Powder"
+		},
+		{
+			"lvl": 14,
+			"name": "Sleep Powder"
+		},
+		{
+			"lvl": 22,
+			"name": "Take Down"
+		},
+		{
+			"lvl": 31,
+			"name": "Razor Leaf"
+		},
+		{
+			"lvl": 44,
+			"name": "Growth"
+		},
+		{
+			"lvl": 58,
+			"name": "Double-Edge"
+		},
+		{
+			"lvl": 71,
+			"name": "Solar Beam"
+		}
+	],
+	"tms": [
+		{
+			"name": "Headbutt"
+		},
+		{
+			"name": "Rest"
+		},
+		{
+			"name": "Light Screen"
+		},
+		{
+			"name": "Protect"
+		},
+		{
+			"name": "Substitute"
+		},
+		{
+			"name": "Reflect"
+		},
+		{
+			"name": "Facade"
+		},
+		{
+			"name": "Toxic"
+		},
+		{
+			"name": "Outrage"
+		},
+		{
+			"name": "Solar Beam"
+		},
+		{
+			"name": "Sludge Bomb"
+		},
+		{
+			"name": "Mega Drain"
+		}
+	]
+}

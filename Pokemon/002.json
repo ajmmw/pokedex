@@ -1,0 +1,161 @@
+{
+	"name": "Ivysaur",
+	"id": "2",
+	"height": 0.99,
+	"weight": 13.0,
+	"species": "Seed",
+	"gender": [
+		{
+			"male": 87.5,
+			"female": 12.5
+		}
+	],
+	"pokedex": "Exposure to sunlight adds to its strength. Sunlight also makes the bud on its back grow larger.",
+	"zone": [
+		{
+			"name": "Viridian Forest",
+			"chance": "Rare",
+			"lvl": "03-06",
+			"encounter": "Normal",
+			"floor": "1F"
+		}
+	],
+	"types": [
+		{
+			"name": "Grass"
+		},
+		{
+			"name": "Poison"
+		}
+	],
+	"abilities": [
+		{
+			"name": "Chlorophyll"
+		},
+		{
+			"name": "Overgrow"
+		}
+	],
+	"stats": [
+		{
+			"name": "CP",
+			"stat": 405
+		},
+		{
+			"name": "Atk",
+			"stat": 62
+		},
+		{
+			"name": "SP Atk",
+			"stat": 80
+		},
+		{
+			"name": "Def",
+			"stat": 63
+		},
+		{
+			"name": "SP Def",
+			"stat": 80
+		},
+		{
+			"name": "HP",
+			"stat": 60
+		},
+		{
+			"name": "Speed",
+			"stat": 60
+		}
+	],
+	"moves": [
+		{
+			"lvl": 1,
+			"name": "Growl"
+		},
+		{
+			"lvl": 1,
+			"name": "Leech Seed"
+		},
+		{
+			"lvl": 1,
+			"name": "Tackle"
+		},
+		{
+			"lvl": 1,
+			"name": "Vine Whip"
+		},
+		{
+			"lvl": 5,
+			"name": "Vine Whip"
+		},
+		{
+			"lvl": 9,
+			"name": "Leech Seed"
+		},
+		{
+			"lvl": 14,
+			"name": "Poison Powder"
+		},
+		{
+			"lvl": 14,
+			"name": "Sleep Powder"
+		},
+		{
+			"lvl": 22,
+			"name": "Take Down"
+		},
+		{
+			"lvl": 31,
+			"name": "Razor Leaf"
+		},
+		{
+			"lvl": 39,
+			"name": "Growth"
+		},
+		{
+			"lvl": 48,
+			"name": "Double-Edge"
+		},
+		{
+			"lvl": 56,
+			"name": "Solar Beam"
+		}
+	],
+	"tms": [
+		{
+			"name": "Headbutt"
+		},
+		{
+			"name": "Rest"
+		},
+		{
+			"name": "Light Screen"
+		},
+		{
+			"name": "Protect"
+		},
+		{
+			"name": "Substitute"
+		},
+		{
+			"name": "Reflect"
+		},
+		{
+			"name": "Facade"
+		},
+		{
+			"name": "Toxic"
+		},
+		{
+			"name": "Outrage"
+		},
+		{
+			"name": "Solar Beam"
+		},
+		{
+			"name": "Sludge Bomb"
+		},
+		{
+			"name": "Mega Drain"
+		}
+	]
+}

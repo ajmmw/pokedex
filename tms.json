@@ -1,0 +1,125 @@
+{
+	"tms": [
+		{
+			"id": "TM1",
+			"name": "Headbutt",
+			"type": "Normal",
+			"class": "Physical",
+			"pow": 70,
+			"pp": 15,
+			"acc": 100,
+			"effect": "Has a 30% chance to make the target flinch."
+
+		},
+		{
+			"id": "TM5",
+			"name": "Rest",
+			"type": "Psychic",
+			"class": "None",
+			"pow": null,
+			"pp": 10,
+			"acc": null,
+			"effect": "User sleeps for two turns, completely healing itself."
+		},
+		{
+			"id": "TM6",
+			"name": "Light Screen",
+			"type": "Psychic",
+			"class": "None",
+			"pow": null,
+			"pp": 30,
+			"acc": null,
+			"effect": "Reduces damage from special attacks by 50% for five turns."
+		},
+		{
+			"id": "TM7",
+			"name": "Protect",
+			"type": "Normal",
+			"class": "None",
+			"pow": null,
+			"pp": 10,
+			"acc": null,
+			"effect": "Prevents any attacks targeted at the user from striking, for the duration of the turn. It has priority +4 so will activate before most other moves."
+		},
+		{
+			"id": "TM8",
+			"name": "Substitute",
+			"type": "Normal",
+			"class": "None",
+			"pow": null,
+			"pp": 10,
+			"acc": null,
+			"effect": "Transfers 1/4 of the user's max HP into a doll, protecting the user from further damage or status changes until it breaks."
+		},
+		{
+			"id": "TM9",
+			"name": "Reflect",
+			"type": "Psychic",
+			"class": "None",
+			"pow": null,
+			"pp": 20,
+			"acc": null,
+			"effect": "Reduces damage from physical attacks by half."
+		},
+		{
+			"id": "TM12",
+			"name": "Facade",
+			"type": "Normal",
+			"class": "Physical",
+			"pow": 70,
+			"pp": 20,
+			"acc": 100,
+			"effect": "Deals damage, and hits with double power (140) if the user is burned, poisoned or paralyzed."
+		},
+		{
+			"id": "TM27",
+			"name": "Toxic",
+			"type": "Poison",
+			"class": "None",
+			"pow": null,
+			"pp": 10,
+			"acc": 90,
+			"effect": "Badly poisons the target, inflicting more damage every turn."
+		},
+		{
+			"id": "TM39",
+			"name": "Outrage",
+			"type": "Dragon",
+			"class": "Physical",
+			"pow": 120,
+			"pp": 10,
+			"acc": 100,
+			"effect": "The user of Outrage attacks for 2-3 turns, during which it cannot switch out, and then becomes confused."
+		},
+		{
+			"id": "TM45",
+			"name": "Solar Beam",
+			"type": "Grass",
+			"class": "Special",
+			"pow": 120,
+			"pp": 10,
+			"acc": 100,
+			"effect": "The user of Solar Beam will absorb light on the first turn. On the second turn, Solar Beam deals damage."
+		},
+		{
+			"id": "TM52",
+			"name": "Sludge Bomb",
+			"type": "Poison",
+			"class": "Special",
+			"pow": 90,
+			"pp": 10,
+			"acc": 100,
+			"effect": "Deals damage and has a 30% chance of poisoning the target."
+		},
+		{
+			"id": "TM53",
+			"name": "Mega Drain",
+			"type": "Grass",
+			"class": "Special",
+			"pow": 40,
+			"pp": 15,
+			"acc": 100,
+			"effect": "Heals the user by half the damage inflicted."
+		}
+	]
+}
