@@ -1,6 +1,6 @@
 {
 	"name": "Bulbasaur",
-	"id": "1",
+	"id": 1,
 	"height": 0.71,
 	"weight": 6.9,
 	"species": "Seed",
@@ -10,12 +10,12 @@
 			"female": 12.5
 		}
 	],
-	"pokedex": "The seed on its back is filled with nutrients. The seed grows steadily larger as its body grows.",
+	"pokedex": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
 	"zone": [
 		{
 			"name": "Viridian Forest",
 			"chance": "Rare",
-			"lvl": "03-06",
+			"lvl": "7",
 			"encounter": "Normal",
 			"floor": "1F"
 		}
@@ -28,44 +28,50 @@
 			"name": "Poison"
 		}
 	],
-	"abilities": [
-		{
-			"name": "Chlorophyll"
-		},
-		{
-			"name": "Overgrow"
-		}
-	],
 	"stats": [
 		{
-			"name": "CP",
-			"stat": 318
+			"name": "HP",
+			"stat": 45
 		},
 		{
 			"name": "Atk",
 			"stat": 49
 		},
 		{
-			"name": "SP Atk",
-			"stat": 65
-		},
-		{
 			"name": "Def",
 			"stat": 49
 		},
 		{
-			"name": "SP Def",
+			"name": "SP.Atk",
 			"stat": 65
 		},
 		{
-			"name": "HP",
-			"stat": 45
+			"name": "SP.Def",
+			"stat": 65
 		},
 		{
 			"name": "Speed",
 			"stat": 45
+		},
+		{
+			"name": "Total",
+			"stat": 318
 		}
 	],
+	"evolution": [
+		{
+			"name": "Ivysaur",
+			"id": 2,
+			"lvl": 16,
+			"req": null
+		},
+		{
+			"name": "Venusaur",
+			"id": 3,
+			"lvl": 32,
+			"req": null
+		}
+	],	
 	"moves": [
 		{
 			"lvl": 1,
