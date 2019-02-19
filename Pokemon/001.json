@@ -1,155 +1,377 @@
 {
-	"name": "Bulbasaur",
-	"id": 1,
-	"height": 0.71,
-	"weight": 6.9,
-	"species": "Seed",
-	"gender": [
-		{
-			"male": 87.5,
-			"female": 12.5
-		}
-	],
-	"pokedex": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
-	"zone": [
-		{
-			"name": "Viridian Forest",
-			"chance": "Rare",
-			"lvl": "7",
-			"encounter": "Normal",
-			"floor": "1F"
-		}
-	],
-	"types": [
-		{
-			"name": "Grass"
-		},
-		{
-			"name": "Poison"
-		}
-	],
-	"stats": [
-		{
-			"name": "HP",
-			"stat": 45
-		},
-		{
-			"name": "Atk",
-			"stat": 49
-		},
-		{
-			"name": "Def",
-			"stat": 49
-		},
-		{
-			"name": "SP.Atk",
-			"stat": 65
-		},
-		{
-			"name": "SP.Def",
-			"stat": 65
-		},
-		{
-			"name": "Speed",
-			"stat": 45
-		},
-		{
-			"name": "Total",
-			"stat": 318
-		}
-	],
-	"evolution": [
-		{
-			"name": "Ivysaur",
-			"id": 2,
-			"lvl": 16,
-			"req": null
-		},
-		{
-			"name": "Venusaur",
-			"id": 3,
-			"lvl": 32,
-			"req": null
-		}
-	],	
-	"moves": [
-		{
-			"lvl": 1,
-			"name": "Growl"
-		},
-		{
-			"lvl": 1,
-			"name": "Tackle"
-		},
-		{
-			"lvl": 5,
-			"name": "Vine Whip"
-		},
-		{
-			"lvl": 9,
-			"name": "Leech Seed"
-		},
-		{
-			"lvl": 14,
-			"name": "Poison Powder"
-		},
-		{
-			"lvl": 14,
-			"name": "Sleep Powder"
-		},
-		{
-			"lvl": 18,
-			"name": "Take Down"
-		},
-		{
-			"lvl": 23,
-			"name": "Razor Leaf"
-		},
-		{
-			"lvl": 27,
-			"name": "Growth"
-		},
-		{
-			"lvl": 32,
-			"name": "Double-Edge"
-		}
-	],
-	"tms": [
-		{
-			"name": "Headbutt"
-		},
-		{
-			"name": "Rest"
-		},
-		{
-			"name": "Light Screen"
-		},
-		{
-			"name": "Protect"
-		},
-		{
-			"name": "Substitute"
-		},
-		{
-			"name": "Reflect"
-		},
-		{
-			"name": "Facade"
-		},
-		{
-			"name": "Toxic"
-		},
-		{
-			"name": "Outrage"
-		},
-		{
-			"name": "Solar Beam"
-		},
-		{
-			"name": "Sludge Bomb"
-		},
-		{
-			"name": "Mega Drain"
-		}
-	]
+  "id": 1,
+  "name": "Bulbasaur",
+  "height": 0.7,
+  "weight": 6.9,
+  "species": "Seed",
+  "abilities": [
+    {
+      "name": "Overgrow",
+      "hidden": false,
+      "effect": "Strengthens grass moves to inflict 1.5× damage at 1/3 max HP or less.",
+      "desc": "When this Pokémon has 1/3 or less of its HP remaining, its grass-type moves inflict 1.5× as much regular damage."
+    },
+    {
+      "name": "Chlorophyll",
+      "hidden": true,
+      "effect": "Doubles Speed during strong sunlight.",
+      "desc": "This Pokémon's Speed is doubled during strong sunlight. This bonus does not count as a stat modifier."
+    }
+  ],
+  "breeding": {
+    "male": 87.5,
+    "female": 12.5,
+    "egg_cycles": 20,
+    "egg_groups": [
+      {
+        "name": "Grass"
+      },
+      {
+        "name": "Monster"
+      }
+    ]
+  },
+  "pokedex": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
+  "types": [
+    {
+      "name": "Grass"
+    },
+    {
+      "name": "Poison"
+    }
+  ],
+  "stats": [
+    {
+      "name": "HP",
+      "stat": 45
+    },
+    {
+      "name": "Atk",
+      "stat": 49
+    },
+    {
+      "name": "Def",
+      "stat": 49
+    },
+    {
+      "name": "SP.Atk",
+      "stat": 65
+    },
+    {
+      "name": "SP.Def",
+      "stat": 65
+    },
+    {
+      "name": "Speed",
+      "stat": 45
+    },
+    {
+      "name": "Total",
+      "stat": 318
+    }
+  ],
+  "evolution": [
+    {
+      "name": "Ivysaur",
+      "id": 2,
+      "lvl": 16,
+      "req": null
+    },
+    {
+      "name": "Venusaur",
+      "id": 3,
+      "lvl": 32,
+      "req": null
+    }
+  ],
+  "moves": [
+    {
+      "lvl": 1,
+      "name": "Tackle",
+      "type": "Normal",
+      "class": "Physical",
+      "pow": 40,
+      "pp": 35,
+      "acc": 100,
+      "effect": "Inflicts regular damage.",
+      "desc": "A physical attack in which the user charges and slams into the target with its whole body."
+    },
+    {
+      "lvl": 3,
+      "name": "Growl",
+      "type": "Normal",
+      "class": "Status",
+      "pow": 0,
+      "pp": 40,
+      "acc": 100,
+      "effect": "Lowers the target's Attack by one stage.",
+      "desc": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stat."
+    },
+    {
+      "lvl": 7,
+      "name": "Leech Seed",
+      "type": "Grass",
+      "class": "Status",
+      "pow": 0,
+      "pp": 10,
+      "acc": 90,
+      "effect": "Plants a seed on the target that drains 1/8 of its max HP at the end of every turn and heals the user for the amount taken. Has no effect on grass Pokémon. The seed remains until the target leaves the field. The user takes damage instead of being healed if the target has liquid ooze. rapid spin will remove this effect. This effect is passed on by baton pass.",
+      "desc": "A seed is planted on the target. It steals some HP from the target every turn."
+    },
+    {
+      "lvl": 9,
+      "name": "Vine Whip",
+      "type": "Grass",
+      "class": "Physical",
+      "pow": 45,
+      "pp": 25,
+      "acc": 100,
+      "effect": "Inflicts regular damage.",
+      "desc": "The target is struck with slender, whiplike vines to inflict damage."
+    },
+    {
+      "lvl": 13,
+      "name": "Poison Powder",
+      "type": "Poison",
+      "class": "Status",
+      "pow": 0,
+      "pp": 35,
+      "acc": 75,
+      "effect": "Poisons the target.",
+      "desc": "The user scatters a cloud of poisonous dust that poisons the target."
+    },
+    {
+      "lvl": 13,
+      "name": "Sleep Powder",
+      "type": "Grass",
+      "class": "Status",
+      "pow": 0,
+      "pp": 15,
+      "acc": 75,
+      "effect": "Puts the target to sleep.",
+      "desc": "The user scatters a big cloud of sleep inducing dust around the target."
+    },
+    {
+      "lvl": 15,
+      "name": "Take Down",
+      "type": "Normal",
+      "class": "Physical",
+      "pow": 90,
+      "pp": 20,
+      "acc": 85,
+      "effect": "Inflicts regular damage. User takes 1/4 the damage it inflicts in recoil.",
+      "desc": "A reckless, full body charge attack for slamming into the target. This also damages the user a little."
+    },
+    {
+      "lvl": 19,
+      "name": "Razor Leaf",
+      "type": "Grass",
+      "class": "Physical",
+      "pow": 55,
+      "pp": 25,
+      "acc": 95,
+      "effect": "Inflicts regular damage. User's critical hit rate is one level higher when using this move.",
+      "desc": "Sharp edged leaves are launched to slash at the opposing Pokémon. Critical hits land more easily."
+    },
+    {
+      "lvl": 21,
+      "name": "Sweet Scent",
+      "type": "Normal",
+      "class": "Status",
+      "pow": 0,
+      "pp": 20,
+      "acc": 100,
+      "effect": "Lowers the target's evasion by one stage.",
+      "desc": "A sweet scent that harshly lowers opposing Pokémon’s evasiveness."
+    },
+    {
+      "lvl": 25,
+      "name": "Growth",
+      "type": "Normal",
+      "class": "Status",
+      "pow": 0,
+      "pp": 20,
+      "acc": 0,
+      "effect": "Raises the user's Attack and Special Attack by one stage each. During sunny day, raises both stats by two stages.",
+      "desc": "The user’s body grows all at once, raising the Attack and Sp. Atk stats."
+    },
+    {
+      "lvl": 27,
+      "name": "Double-Edge",
+      "type": "Normal",
+      "class": "Physical",
+      "pow": 120,
+      "pp": 15,
+      "acc": 100,
+      "effect": "Inflicts regular damage. User takes 1/3 the damage it inflicts in recoil.",
+      "desc": "A reckless, life risking tackle. This also damages the user quite a lot."
+    },
+    {
+      "lvl": 31,
+      "name": "Worry Seed",
+      "type": "Grass",
+      "class": "Status",
+      "pow": 0,
+      "pp": 10,
+      "acc": 100,
+      "effect": "Changes the target's ability to insomnia. If the target's ability is truant or multitype, this move will fail.",
+      "desc": "A seed that causes worry is planted on the target. It prevents sleep by making the target’s Ability Insomnia."
+    },
+    {
+      "lvl": 33,
+      "name": "Synthesis",
+      "type": "Grass",
+      "class": "Status",
+      "pow": 0,
+      "pp": 5,
+      "acc": 0,
+      "effect": "Heals the user for half its max HP. During sunny day, the healing is increased to 2/3 max HP. During hail, rain dance, or sandstorm, the healing is decreased to 1/4 max HP.",
+      "desc": "The user restores its own HP. The amount of HP regained varies with the weather."
+    },
+    {
+      "lvl": 37,
+      "name": "Seed Bomb",
+      "type": "Grass",
+      "class": "Physical",
+      "pow": 80,
+      "pp": 15,
+      "acc": 100,
+      "effect": "Inflicts regular damage.",
+      "desc": "The user slams a barrage of hard shelled seeds down on the target from above."
+    }
+  ],
+  "tms": [
+    {
+      "tm": 1,
+      "name": "Headbutt",
+      "type": "Psychic",
+      "class": "Physical",
+      "pow": 80,
+      "pp": 15,
+      "acc": 90,
+      "effect": "Inflicts regular damage. Has a 20% chance to make the target flinch.",
+      "desc": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch."
+    },
+    {
+      "tm": 5,
+      "name": "Rest",
+      "type": "Psychic",
+      "class": "Status",
+      "pow": 0,
+      "pp": 10,
+      "acc": 0,
+      "effect": "User falls to sleep and immediately regains all its HP. If the user has another major status effect, sleep will replace it. The user will always wake up after two turns, or one turn with early bird. This move fails if the Pokémon cannot fall asleep due to uproar, insomnia, or vital spirit. It also fails if the Pokémon is at full health or is already asleep.",
+      "desc": "The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions."
+    },
+    {
+      "tm": 6,
+      "name": "Light Screen",
+      "type": "Psychic",
+      "class": "Status",
+      "pow": 0,
+      "pp": 30,
+      "acc": 0,
+      "effect": "Erects a barrier around the user's side of the field that reduces damage from special attacks by half for five turns. In double battles, the reduction is 1/3. Critical hits are not affected by the barrier. If the user is holding light clay, the barrier lasts for eight turns. brick break or defog used by an opponent will destroy the barrier.",
+      "desc": "A wondrous wall of light is put up to reduce damage from special attacks for five turns."
+    },
+    {
+      "tm": 7,
+      "name": "Protect",
+      "type": "Normal",
+      "class": "Status",
+      "pow": 0,
+      "pp": 10,
+      "acc": 0,
+      "effect": "No moves will hit the user for the remainder of this turn. If the user is last to act this turn, this move will fail. If the user successfully used detect, endure, protect, quick guard, or wide guard on the last turn, this move has a 50% chance to fail. lock on, mind reader, and no guard provide a (100 – accuracy)% chance for moves to break through this move. This does not apply to one hit KO moves (fissure, guillotine, horn drill, and sheer cold); those are always blocked by this move. thunder during rain dance and blizzard during hail have a 30% chance to break through this move. The following effects are not prevented by this move: * acupressure from an ally * curse's curse effect * Delayed damage from doom desire and future sight; however, these moves will be prevented if they are used this turn * feint, which will also end this move's protection after it hits * imprison * perish song * shadow force * Moves that merely copy the user, such as transform or psych up This move cannot be selected by assist or metronome.",
+      "desc": "Enables the user to evade all attacks. Its chance of failing rises if it is used in succession."
+    },
+    {
+      "tm": 8,
+      "name": "Substitute",
+      "type": "Normal",
+      "class": "Status",
+      "pow": 0,
+      "pp": 10,
+      "acc": 0,
+      "effect": "Transfers 1/4 the user's max HP into a doll that absorbs damage and causes most negative move effects to fail. If the user leaves the field, the doll will vanish. If the user cannot pay the HP cost, this move will fail. The doll takes damage as normal, using the user's stats and types, and will break when its HP reaches zero. Self inflicted damage from confusion or recoil is not absorbed. Healing effects from opponents ignore the doll and heal the user as normal. Moves that work based on the user's HP still do so; the doll's HP does not influence any move. The doll will block major status effects, confusion, and flinching. The effects of smelling salts and wake up slap do not trigger against a doll, even if the Pokémon behind the doll has the appropriate major status effect. Multi turn trapping moves like wrap will hit the doll for their regular damage, but the multi turn trapping and damage effects will not activate. Moves blocked or damage absorbed by the doll do not count as hitting the user or inflicting damage for any effects that respond to such, e.g., avalanche, counter, or a rowap berry. magic coat still works as normal, even against moves the doll would block. Opposing Pokémon that damage the doll with a leech move like absorb are healed as normal. It will also block acupressure, block, the curse effect of curse, dream eater, embargo, flatter, gastro acid, grudge, heal block, leech seed, lock on, mean look, mimic, mind reader, nightmare, pain split, psycho shift, spider web, sketch, swagger, switcheroo, trick, worry seed, and yawn. A Pokémon affected by yawn before summoning the doll will still fall to sleep. The doll blocks intimidate, but all other abilities act as though the doll did not exist. If the user has an ability that absorbs moves of a certain type for HP (such as volt absorb absorbing thunder wave), such moves will not be blocked. life orb and berries that cause confusion still work as normal, but their respective HP loss and confusion are absorbed/blocked by the doll. The user is still vulnerable to damage inflicted when entering or leaving the field, such as by pursuit or spikes; however, the doll will block the poison effect of toxic spikes. The doll is passed on by baton pass. It keeps its existing HP, but uses the replacement Pokémon's stats and types for damage calculation. All other effects work as normal.",
+      "desc": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy."
+    },
+    {
+      "tm": 9,
+      "name": "Reflect",
+      "type": "Psychic",
+      "class": "Status",
+      "pow": 0,
+      "pp": 20,
+      "acc": 0,
+      "effect": "Erects a barrier around the user's side of the field that reduces damage from physical attacks by half for five turns. In double battles, the reduction is 1/3. Critical hits are not affected by the barrier. If the user is holding light clay, the barrier lasts for eight turns. brick break or defog used by an opponent will destroy the barrier.",
+      "desc": "A wondrous wall of light is put up to reduce damage from physical attacks for five turns."
+    },
+    {
+      "tm": 12,
+      "name": "Facade",
+      "type": "Normal",
+      "class": "Physical",
+      "pow": 70,
+      "pp": 20,
+      "acc": 100,
+      "effect": "Inflicts regular damage. If the user is burned, paralyzed, or poisoned, this move has double power.",
+      "desc": "This attack move doubles its power if the user is poisoned, burned, or paralyzed."
+    },
+    {
+      "tm": 27,
+      "name": "Toxic",
+      "type": "Poison",
+      "class": "Status",
+      "pow": 0,
+      "pp": 10,
+      "acc": 90,
+      "effect": "Badly poisons the target. Never misses when used by a poison type Pokémon.",
+      "desc": "A move that leaves the target badly poisoned. Its poison damage worsens every turn."
+    },
+    {
+      "tm": 39,
+      "name": "Outrage",
+      "type": "Dragon",
+      "class": "Physical",
+      "pow": 120,
+      "pp": 10,
+      "acc": 100,
+      "effect": "Inflicts regular damage. User is forced to attack with this move for 2–3 turns,selected at random. After the last hit, the user becomes confused. safeguard does not protect against the confusion from this move.",
+      "desc": "The user rampages and attacks for two to three turns. The user then becomes confused."
+    },
+    {
+      "tm": 45,
+      "name": "Solar Beam",
+      "type": "Grass",
+      "class": "Special",
+      "pow": 120,
+      "pp": 10,
+      "acc": 100,
+      "effect": "Inflicts regular damage. User charges for one turn before attacking. During sunny day, the charge turn is skipped. During hail, rain dance, or sandstorm, power is halved. This move cannot be selected by sleep talk.",
+      "desc": "In this two turn attack, the user gathers light, then blasts a bundled beam on the next turn."
+    },
+    {
+      "tm": 52,
+      "name": "Sludge Bomb",
+      "type": "Poison",
+      "class": "Special",
+      "pow": 90,
+      "pp": 10,
+      "acc": 100,
+      "effect": "Inflicts regular damage. Has a 30% chance to poison the target.",
+      "desc": "Unsanitary sludge is hurled at the target. This may also poison the target."
+    },
+    {
+      "tm": 53,
+      "name": "Mega Drain",
+      "type": "Grass",
+      "class": "Special",
+      "pow": 40,
+      "pp": 15,
+      "acc": 100,
+      "effect": "Inflicts regular damage. Drains half the damage inflicted to heal the user.",
+      "desc": "A nutrient draining attack. The user’s HP is restored by half the damage taken by the target."
+    }
+  ]
 }
